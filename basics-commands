@@ -1,0 +1,16 @@
+vagrant machine:-
+-----------------
+vagrant init                     : Creates  the vagrant file.
+vagrant up                       : Starts the machine.
+vagrant status                   : Shows the status of guest machine.
+vagrant ssh <host-name>          : To ssh to particular vagrant host (server).
+vagrant reload                   : Is used to already existed machine if we change any configurations in " vagrant init" file.
+vagrant halt                     : It will shutdown the machine gracefully.
+vagrant suspend                  : it will resume the machine at that instant and when will run vagrant up, machine will up from the resumed state.
+vagrant destroy                  : Destroys the guest machine.
+
+vagrant-box:-
+-------------
+vagrant box list                 : Lists vagrant boxes
+vagrant box remove <box-name>    : It will remove vagrant boxes
+
